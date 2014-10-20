@@ -2,8 +2,6 @@
 
 module Rosette
   module Preprocessors
-    class NormalizationPreprocessor
-      VERSION = '1.0.0'
-    end
+    NORMALIZATION_PREPROCESSOR_VERSION = '1.0.0'
   end
 end

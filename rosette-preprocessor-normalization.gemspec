@@ -3,7 +3,7 @@ require 'rosette/preprocessors/normalization-preprocessor/version'
 
 Gem::Specification.new do |s|
   s.name     = "rosette-preprocessor-normalization"
-  s.version  = ::Rosette::Preprocessors::NormalizationPreprocessor::VERSION
+  s.version  = ::Rosette::Preprocessors::NORMALIZATION_PREPROCESSOR_VERSION
   s.authors  = ["Cameron Dutro"]
   s.email    = ["camertron@gmail.com"]
   s.homepage = "http://github.com/camertron"
