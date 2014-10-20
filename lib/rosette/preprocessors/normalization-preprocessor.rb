@@ -11,7 +11,7 @@ module Rosette
 
       def self.configure
         config = Configurator.new
-        yield config
+        yield config if block_given?
         new(config)
       end
 
