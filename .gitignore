@@ -1,7 +1,6 @@
-.jbundler
 .DS_Store
 .ruby-version
 Gemfile.lock
-Jarfile.lock
 pkg/
 tester.rb
+classpath.txt

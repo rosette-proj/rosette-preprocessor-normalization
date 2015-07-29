@@ -1,8 +1,11 @@
 # encoding: UTF-8
 
-require 'rubygems' unless ENV['NO_RUBYGEMS']
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
 
-require 'bundler'
+require 'expert'
+Expert.environment.require_all
+
 require 'rspec/core/rake_task'
 require 'rubygems/package_task'
 
