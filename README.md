@@ -31,8 +31,8 @@ require 'rosette/extractors/json-extractor'
 
 rosette_config = Rosette.build_config do |config|
   config.add_repo('my_awesome_repo') do |repo_config|
-    repo_config.add_serializer('json/key-value') do |extractor_config|
-      extractor_config.add_preprocessor('normalization') do |pre_config|
+    repo_config.add_serializer('json/key-value') do |serializer_config|
+      serializer_config.add_preprocessor('normalization') do |pre_config|
         pre_config.set_normalization_form(:nfc)
       end
     end
