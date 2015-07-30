@@ -7,7 +7,7 @@ Normalizes text for the Rosette internationalization platform using the [Unicode
 
 ## Installation
 
-`gem install rosette-normalization-preprocessor`
+`gem install rosette-preprocessor-normalization`
 
 Then, somewhere in your project:
 
@@ -17,7 +17,7 @@ require 'rosette/preprocessors/normalization-preprocessor'
 
 ### Introduction
 
-This library is generally meant to be used with the Rosette internationalization platform that extracts translatable phrases from git repositories. rosette-normalization-preprocessor is capable of running the Unicode normalization algorithm over translations before they are serialized.
+This library is generally meant to be used with the Rosette internationalization platform that extracts translatable phrases from git repositories. rosette-preprocessor-normalization is capable of running the Unicode normalization algorithm over translations before they are serialized.
 
 ### Usage with rosette-server
 
